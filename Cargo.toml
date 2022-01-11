@@ -1,0 +1,12 @@
+[package]
+name = "graph2"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+plotly = { version = "0.7.0", features = ["kaleido"] }
+serde = "1.0.133"
+chrono = "0.4.19"
+csv = "1.1.6"
